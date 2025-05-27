@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "HabitNetworkAPI.Habits.Controllers.HabitController",
+    "Method": "CreateHabit",
+    "RelativePath": "api/v1/Habit/habit/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "habitCreationInfo",
+        "Type": "HabitNetworkAPI.Habits.Models.HabitCreationInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HabitNetworkAPI.Habits.Controllers.HabitController",
+    "Method": "GetHabit",
+    "RelativePath": "api/v1/Habit/habit/{userId}/{habitId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "habitId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HabitNetworkAPI.Users.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/v1/User/{userID}/userInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HabitNetworkAPI.Users.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/v1/User/newUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userCreationInfo",
+        "Type": "HabitNetworkAPI.Users.Models.UserCreationInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

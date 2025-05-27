@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "W55OfoezOrfIvNr0IY6zWzI0DfWPSfSR7wlAhMZ6JyA=",
+  "Source": "HabitNetworkAPI",
+  "BasePath": "_content/HabitNetworkAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
